@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+/media/
+
+# Django secret key and settings
+**/settings.py
+**/settings/*.py
+!**/settings/base.py  # If you use a base settings file pattern
+
+# DRF related (migrations and API-related caches)
+**/migrations/
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Testing
+.tox/
+.coverage
+.cache
+.nox/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Others
+*.bak
+*.orig
+*.tmp
+
+# pip dependency management
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Python virtual environments
+*.env
+*.env.*
+.env
+
+# Local development
+.local/
